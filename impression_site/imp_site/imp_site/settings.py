@@ -25,7 +25,7 @@ SECRET_KEY = '+g&0td$+s4zqlc_ieyv@%#n*y2zp!u=*8&)#ap)g1ys%*)^16d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
@@ -161,5 +161,4 @@ LOGIN_REDIRECT_URL = '/'
 
 #site id
 SITE_ID = 1
-ACCOUNT_EMAIL_REQUIRED=True
-ACCOUNT_USERNAME_REQURIED=True
+ACCOUNT_EMAIL_VERIFICATION = "none"
