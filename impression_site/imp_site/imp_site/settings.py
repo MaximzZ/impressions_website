@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.facebook',
+    'mapbox_location_field',
+    'place_location'
     # imp
 ]
 
@@ -162,3 +164,4 @@ LOGIN_REDIRECT_URL = '/'
 #site id
 SITE_ID = 1
 ACCOUNT_EMAIL_VERIFICATION = "none"
+MAPBOX_KEY = 'pk.eyJ1IjoibWF4eHp6IiwiYSI6ImNraDI0cm1jdDAyNXozMnJ3cXp3OXhhenEifQ.x2X076jEz5lCBKj9-cUjXw'
