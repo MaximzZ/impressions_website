@@ -24,5 +24,5 @@ urlpatterns = [
     path('', TemplateView.as_view(template_name='index.html')),
     path('accounts/', include('allauth.urls')),
     path('accounts/profile/', TemplateView.as_view(template_name='profile.html')),
-    path('map', TemplateView.as_view(template_name='place_location.location.html'))
+    path('map', include(''))
 ]
